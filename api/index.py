@@ -1,27 +1,7 @@
 from flask import Flask,request,jsonify
-from api.engine import *
-app=Flask(__name__)
+from engine import *
 
-
-
-
-def get_attendance(usrid,passwd):
-    attendance="https://sngce.etlab.in/ktuacademics/student/viewattendancesubject/11"
-    logged_in=get_loggedin(usrid,passwd)
-    if logged_in["request"]==True:
-        logged_in=logged_in["session"]
-        data=logged_in.get(url=attendance)
-        data_content=BeautifulSoup(data.content,"html.parser")
-        result={}
-        table_header=data_content.find_all("th")
-        table_value=data_content.find_all("td")
-        for i in range(len(table_header)):
-            result[table_header[i].text.strip()]=table_value[i].text.strip()
-        return {"Status":"Success","message":result}
-    else:
-        return {"Status":"Failed","message":logged_in["message"].strip()}
-    
-####################################################################################################################################################
+app=Flask(__name__)    
 @app.route("/")
 def home():
     return "Hi welcome"
@@ -39,7 +19,7 @@ def attendance():
     return jsonify(data)
 
 @app.route("/get_attendance_list",methods=["POST"])
-def attendancelist():
+def getattendancelist():
     if request.method=="POST":
         data=request.json
         if ("Data" in data):
@@ -56,6 +36,18 @@ def attendancelist():
     else:
         return jsonify({"Status":"Failed","message":"Request method should be POST."})
 
+@app.route("/receive_attendance_list",methods=["POST"])
+def recattendancelist():
+    if request.method=="POST":
+        print("post")
+        data=request.json
+        print(data)
+        if ("Data" in data):
+            log=data["Data"]
+            send_attendance_list(log)
+            return jsonify({"Status":"Success","message":"Data send successfully."})
+        else:
+            return jsonify({"Status":"Failed","message":"Data not send properly."})
 
 if __name__=="__main__":
     app.run()
