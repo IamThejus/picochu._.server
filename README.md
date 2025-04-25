@@ -19,7 +19,6 @@ This project provides an API for handling attendance using RFID cards, saving re
 
 - 🧠 **Raspberry Pi Pico** – for scanning RFID cards and recording timestamps
 - 📟 **RC522 RFID Module** – used to scan student IDs
-- ⏰ **DS3231 RTC** – used for accurate timestamps
 - 🐍 **Flask** – Python web framework for API development
 - 🍃 **MongoDB** – database to store attendance records
 - ▲ **Vercel** – serverless deployment of the Flask API
