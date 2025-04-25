@@ -39,17 +39,29 @@ Below is the image of the actual hardware setup using Raspberry Pi Pico, RC522 R
 
 ---
 
-### 📱 App Screenshots (UI Previews)
+### 📱 Mobile App Screenshots
 
 ---
 
-## 📱 Mobile App Screenshots
+## 📱 Home & Login Pages
 
-Here are some screenshots of the admin mobile apps:
+<p float="left"> <img src="https://github.com/user-attachments/assets/998727a7-2180-4dac-be7b-f8c73d5da565" alt="Home Page" width="220"/> <img src="https://github.com/user-attachments/assets/58bfaeb3-a0aa-4ecd-b878-61648afe6462" alt="Admin Login" width="220"/> <img src="https://github.com/user-attachments/assets/09a6dd62-28eb-43b6-a1a7-a45e416a2adf" alt="Student Login" width="220"/> </p>
+
+![studentlogin](https://github.com/user-attachments/assets/09a6dd62-28eb-43b6-a1a7-a45e416a2adf)
+![homepage](https://github.com/user-attachments/assets/998727a7-2180-4dac-be7b-f8c73d5da565)
+![attlist](https://github.com/user-attachments/assets/4098a3af-5e68-4d3d-986c-8d364a62de07)
+![overallatt](https://github.com/user-attachments/assets/426ab250-68c8-4572-a361-8e2211e65432)
+![adminlogin](https://github.com/user-attachments/assets/58bfaeb3-a0aa-4ecd-b878-61648afe6462)
 
 
-### 🧑‍💼 Admin App
-![Admin Panel]![WhatsApp Image 2025-04-01 at 00 50 07_3b3d001a](https://github.com/user-attachments/assets/06e23ef8-da99-437d-b1bc-a83939b771b2)
+
+## 🧑‍💼 Admin View – Attendance List
+
+<img src="https://github.com/user-attachments/assets/4098a3af-5e68-4d3d-986c-8d364a62de07" alt="Admin Attendance List" width="300"/>
+
+## 👨‍🎓 Student View – Attendance Overview
+
+<img src="https://github.com/user-attachments/assets/426ab250-68c8-4572-a361-8e2211e65432" alt="Student Attendance Overview" width="300"/>
 
 
 ---
