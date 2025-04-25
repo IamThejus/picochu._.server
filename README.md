@@ -34,7 +34,7 @@ This project provides an API for handling attendance using RFID cards, saving re
 
 Below is the image of the actual hardware setup using Raspberry Pi Pico, RC522 RFID module, and DS3231 RTC:
 
-![Hardware Setup]![WhatsApp Image 2025-04-01 at 14 52 28_55a2aea8](https://github.com/user-attachments/assets/24551007-dbd7-462a-81d8-8c73d0c3ac7c)
+<img src="https://github.com/user-attachments/assets/24551007-dbd7-462a-81d8-8c73d0c3ac7c" alt="Hardware Setup" width="400"/>
 
 
 ---
