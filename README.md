@@ -48,7 +48,7 @@ Below is the image of the actual hardware setup using Raspberry Pi Pico, RC522 R
 <p float="left"> <img src="https://github.com/user-attachments/assets/998727a7-2180-4dac-be7b-f8c73d5da565" alt="Home Page" width="220"/> <img src="https://github.com/user-attachments/assets/58bfaeb3-a0aa-4ecd-b878-61648afe6462" alt="Admin Login" width="220"/> <img src="https://github.com/user-attachments/assets/09a6dd62-28eb-43b6-a1a7-a45e416a2adf" alt="Student Login" width="220"/> </p>
 
 - **Home Page**: The landing screen where users choose to log in as either Administrator or Student.
-- **Administrator** Login Page: Interface for admins to securely log in and manage attendance data.
+- **Administrator Login Page**: Interface for admins to securely log in and manage attendance data.
 - **Student Login Page**: Interface for students to access their attendance dashboard.
 
 
@@ -56,7 +56,7 @@ Below is the image of the actual hardware setup using Raspberry Pi Pico, RC522 R
 
 <img src="https://github.com/user-attachments/assets/4098a3af-5e68-4d3d-986c-8d364a62de07" alt="Admin Attendance List" width="300"/>
 
-- **Admin Panel** – Attendance List: Displays a session-wise attendance list of students, showing their presence status.
+- **Admin Panel – Attendance List**: Displays a session-wise attendance list of students, showing their presence status.
 
 ## 👨‍🎓 Student View – Attendance Overview
 
